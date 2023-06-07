@@ -40,6 +40,10 @@ sensors = {
     "energy_consumption_ytd":         {"unit": "kWh", "PDO": 129, "CONV": ComfoNumConvs.UINT16},
     "energy_consumption_since_start": {"unit": "kWh", "PDO": 130, "CONV": ComfoNumConvs.UINT16},
 
+    "preheater_power_consumption_current":      {"unit": "W",   "PDO": 146, "CONV": ComfoNumConvs.UINT16},
+    "preheater_energy_consumption_ytd":         {"unit": "kWh", "PDO": 144, "CONV": ComfoNumConvs.UINT16},
+    "preheater_energy_consumption_since_start": {"unit": "kWh", "PDO": 145, "CONV": ComfoNumConvs.UINT16},
+    
     "days_remaining_filter": {"unit": "days", "PDO": 192, "CONV": ComfoNumConvs.UINT16},
 
     "avoided_heating_actual": {"unit": "W", "PDO": 213, "CONV": ComfoNumConvs.UINT16, "div": 100},
